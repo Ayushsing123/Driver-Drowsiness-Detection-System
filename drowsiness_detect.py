@@ -8,7 +8,7 @@ import cv2
 
 #Initialize Pygame and load music
 pygame.mixer.init()
-pygame.mixer.music.load('audio\\alart3.mp3')
+pygame.mixer.music.load('alert3.mp3')
 
 #Minimum threshold of eye aspect ratio below which alarm is triggerd
 # EYE_ASPECT_RATIO_THRESHOLD = .3
