@@ -13,13 +13,10 @@ The Real-Time Driver Drowsiness Detection System is a Python-based application d
 ## 📦 Requirements
 Before running the project, ensure you have the following installed:
 ```bash
+python -m venv .venv
+.venv/Scrip/activate(for windows users)
+.venv/bin.activate.bat(for linux and mac users)
 pip install opencv-python
 pip install dlib
 pip install pygame
 pip install imutils
-
-driver-drowsiness-detection/
-├── main.py                  # Main script to run the application
-├── shape_predictor_68_face_landmarks.dat  # Dlib pre-trained model
-├── alarm.wav               # Audio file to alert the driver
-├── README.md               
